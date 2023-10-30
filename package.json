@@ -19,7 +19,7 @@
     "lint": "eslint .",
     "lint-start": "eslint . && npm start",
     "bump-commit-minor": "npm version minor -m \"minor\" && git push",
-    "bump-commit-minor-sh": "bump-commit-minor-sh.sh"
+    "bump-commit-minor-sh": "bash bump-commit-minor-sh.sh"
   },
   "eslintConfig": {
     "extends": [

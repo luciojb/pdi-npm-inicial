@@ -1,4 +1,4 @@
 #!/bin/bash
 
-npm version minor
+git commit -am "minor sh command"
 git push
