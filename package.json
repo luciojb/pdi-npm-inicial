@@ -1,6 +1,6 @@
 {
   "name": "pdi-npm-inicial",
-  "version": "3.0.0-0",
+  "version": "3.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,9 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
-    "lint-start" : "eslint . && npm start",
-    "bump-commit-minor" : "npm version minor -m \"minor\" && git push",
-    "bump-commit-minor-sh" : "bump-commit-minor-sh.sh"
+    "lint-start": "eslint . && npm start",
+    "bump-commit-minor": "npm version minor -m \"minor\" && git push",
+    "bump-commit-minor-sh": "bump-commit-minor-sh.sh"
   },
   "eslintConfig": {
     "extends": [
